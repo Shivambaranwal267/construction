@@ -30,7 +30,28 @@ const Home = () => {
     <>
       <Header />
       <main>
-        <Hero />
+        <section className="section-1">
+      <div className="hero d-flex align-items-center">
+        <div className="container-fluid">
+          <div className="text-center">
+            <span>Welcome Amazing Constructions</span>
+            <h1>
+              Crafting dreams with <br /> precision and excellence.
+            </h1>
+            <p>
+              We excel at transforming visions into reality through outstanding
+              craftsmanship and precise <br />
+              attention to detail. With years of experience and a dedication to
+              quality.
+            </p>
+            <div className="mt-4">
+              <a className="btn btn-primary large">Contact Now</a>
+              <a className="btn btn-secondary ms-2 large">View Projects</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
         <About />
 
         {/* Our Services */}
@@ -269,6 +290,8 @@ const Home = () => {
             </div>
           </div>
         </section>
+
+        {/* Testimonials */}
 
         <section className="section-5 py-5">
           <div className="container">
@@ -589,6 +612,8 @@ const Home = () => {
             </Swiper>
           </div>
         </section>
+
+        {/* Blog & news*/}
 
         <section className="section-6 bg-light py-5">
           <div className="container">
